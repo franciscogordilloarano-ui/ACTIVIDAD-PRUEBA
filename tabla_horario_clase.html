@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Horarios</title>
+    <style>
+        body {
+            color: #07518a;
+            font-family: Arial, sans-serif;
+        }
+
+
+        table {
+
+            border-collapse:collapse;
+            border:1px solid black;
+        }
+
+        caption {
+            font-weight: bold;
+        }
+
+        th {
+            text-align: center;
+            font-size: 1rem;
+            border-collapse:collapse;
+            border:1px solid black;
+        }
+
+        td {
+            text-align: center;
+            border-collapse:collapse;
+            border:1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+    <caption>Horario semanal</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>15:00 a 15:55</th>
+                <td rowspan="2"><strong>(IDP)</strong></td>
+                <td rowspan="2"><strong>(IDP)</strong></td>
+                <td><strong>(ITK)</strong></td>
+                <td rowspan="2"><strong>(ITK)</strong></td>
+                <td rowspan="2"><strong>(GTB)</strong></td>
+            </tr>
+            <tr>
+                <th>15:55 a 16:50</th>
+                <td><strong>(GTB)</strong></td>
+            </tr>
+            <tr>
+                <th>16:50 a 17:45</th>
+                <td><strong>(LND)</strong></td>
+                <td><strong>(GTB)</strong></td>
+                <td><strong>(IKL)</strong></td>
+                <td><strong>(LND)</strong></td>
+                <td><strong>(IKL)</strong></td>
+            </tr>
+            <tr>
+                <th>17:45 a 18:00</th>
+                <td colspan="5"><strong>DESCANSO</strong></td>
+            </tr>
+            <tr>
+                <th>18:00 a 18:55</th>
+                <td><strong>(LND)</strong></td>
+                <td><strong>(GTB)</strong></td>
+                <td><strong>(PNI)</strong></td>
+                <td><strong>(LND)</strong></td>
+                <td><strong>(FUW)</strong></td>
+            </tr>
+
+            <tr>
+                <th>18:55 a 20:45</th>
+                <td rowspan="2"><strong>(PNI)</strong></td>
+                <td rowspan="2"><strong>(FUW)</strong></td>
+                <td rowspan="2"><strong>(DJK)</strong></td>
+                <td rowspan="2"><strong>(PNI)</strong></td>
+                <td rowspan="2"><strong>(IDP)</strong></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

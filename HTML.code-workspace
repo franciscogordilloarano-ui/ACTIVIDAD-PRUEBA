@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Entrega 2"
+		}
+	],
+	"settings": {
+		"chat.permissions.default": "autoApprove"
+	}
+}
