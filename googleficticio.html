@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google ficticio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #202124;
+            background-color: white;
+        }
+
+        header {
+            text-align: right;
+            padding: 20px;
+        }
+
+        header a {
+            color: #202124;
+            text-decoration: none;
+            margin-left: 15px;
+            font-size: 14px;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        h1 {
+            font-size: 80px;
+            margin-bottom: 25px;
+            letter-spacing: -5px;
+        }
+
+        .azul {
+            color: #4285f4;
+        }
+
+        .rojo {
+            color: #ea4335;
+        }
+
+        .amarillo {
+            color: #fbbc05;
+        }
+
+        .verde {
+            color: #34a853;
+        }
+
+        .buscador {
+            width: 90%;
+            max-width: 550px;
+            padding: 14px;
+            border: 1px solid #dfe1e5;
+            border-radius: 25px;
+            font-size: 16px;
+        }
+
+        .buscador:hover,
+        .buscador:focus {
+            box-shadow: 0 1px 6px #cccccc;
+        }
+
+        .boton {
+            margin-top: 25px;
+            padding: 10px 18px;
+            border: 1px solid #f8f9fa;
+            border-radius: 4px;
+            background-color: #f8f9fa;
+            color: #3c4043;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .boton:hover {
+            border-color: #dadce0;
+        }
+
+        .aviso {
+            margin-top: 35px;
+            color: #5f6368;
+            font-size: 13px;
+        }
+
+        footer {
+            background-color: #f2f2f2;
+            color: #5f6368;
+            padding: 15px 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="https://mail.google.com/">Gmail</a>
+            <a href="https://www.google.com/imghp">Imágenes</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 aria-label="Google">
+            <span class="azul">G</span><span class="rojo">o</span><span class="amarillo">o</span><span
+                class="azul">g</span><span class="verde">l</span><span class="rojo">e</span>
+        </h1>
+
+        <form action="https://www.google.com/search" method="get">
+            <label for="busqueda">¿Qué quieres buscar?</label>
+            <br><br>
+
+            <input class="buscador" type="search" id="busqueda" name="q" placeholder="Escribe tu búsqueda">
+
+            <br>
+
+            <button class="boton" type="submit">
+                Buscar con Google
+            </button>
+        </form>
+
+        <p class="aviso">Página ficticia creada para practicar HTML y CSS.</p>
+    </main>
+
+    <footer>
+        <p>España</p>
+    </footer>
+
+</body>
+
+</html>
